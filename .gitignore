@@ -1,0 +1,19 @@
+# General
+.DS_Store
+*.log
+.env
+.env.local
+.vscode/
+
+# Node
+node_modules/
+dist/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/

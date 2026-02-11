@@ -1,0 +1,28 @@
+{
+  "name": "llm-api-cookbook",
+  "version": "1.0.0",
+  "description": "A language-agnostic cookbook of working LLM API examples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "llm",
+    "cookbook",
+    "openai",
+    "groq",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "groq-sdk": "^0.3.3",
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2",
+    "@types/node": "^20.10.0"
+  }
+}
