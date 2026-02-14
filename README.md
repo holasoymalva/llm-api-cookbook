@@ -45,9 +45,9 @@ patterns/
 
 | Provider | Folder Name | Chat | JSON Mode | Tools | Streaming | Embeddings | Vision | Audio |
 |----------|-------------|------|-----------|-------|-----------|------------|--------|-------|
-| **OpenAI** | `openai-like` | ✅ | ✅ | ✅ | ✅ | ✅ | 🚧 | 🚧 |
+| **OpenAI** | `openai-like` | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **Groq** | `groq` | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| **Gemini** | `gemini` | ✅ | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 |
+| **Gemini** | `gemini` | ✅ | 🚧 | 🚧 | 🚧 | 🚧 | ✅ | 🚧 |
 | **Anthropic** | `anthropic-like` | ✅ | 🚧 | 🚧 | 🚧 | ❌ | ❌ | ❌ |
 
 ## Supported Languages
@@ -61,7 +61,7 @@ patterns/
 
 ## Patterns
 
-We are currently implementing the following patterns (Phase 1 & 2):
+We aim to cover the following patterns:
 
 1.  **Chat Basics**: Single-turn and simple multi-turn chat.
 2.  **Structured Output**: JSON mode and structured parsing.
@@ -69,8 +69,9 @@ We are currently implementing the following patterns (Phase 1 & 2):
 4.  **Streaming**: Handling streamed responses.
 5.  **Embeddings**: Generating text embeddings.
 6.  **RAG Building Blocks**: Simple retrieval augmentation.
-7.  **Vision**: Image analysis (Planned Phase 3).
-8.  **Audio**: Speech-to-Text / Text-to-Speech (Planned Phase 3).
+7.  **Vision**: Image analysis.
+8.  **Audio**: Speech-to-Text / Text-to-Speech (STT/TTS).
+9.  **Advanced Tool Use**: Connecting to external APIs (e.g., fetching real data).
 
 ## Contributing
 
