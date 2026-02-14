@@ -47,8 +47,8 @@ patterns/
 |----------|-------------|------|-----------|-------|-----------|------------|--------|-------|
 | **OpenAI** | `openai-like` | ✅ | ✅ | ✅ | ✅ | ✅ | 🚧 | 🚧 |
 | **Groq** | `groq` | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| **Gemini** | `gemini` | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 |
-| **Anthropic** | `anthropic-like` | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 |
+| **Gemini** | `gemini` | ✅ | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 |
+| **Anthropic** | `anthropic-like` | ✅ | 🚧 | 🚧 | 🚧 | ❌ | ❌ | ❌ |
 
 ## Supported Languages
 
@@ -56,8 +56,8 @@ patterns/
 |----------|-------------|--------|
 | **Node.js / TypeScript** | `javascript` | ✅ |
 | **Python** | `python` | ✅ |
-| **Go** | `go` | 🚧 (Planned) |
-| **Rust** | `rust` | 🚧 (Planned) |
+| **Go** | `go` | 🚧 (Skeleton) |
+| **Rust** | `rust` | 🚧 (Skeleton) |
 
 ## Patterns
 
