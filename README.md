@@ -43,13 +43,12 @@ patterns/
 
 ## Supported Providers
 
-| Provider | Folder Name | Status |
-|----------|-------------|--------|
-| **OpenAI (and compatible)** | `openai-like` | ✅ |
-| **Groq** | `groq` | ✅ |
-| **Gemini** | `gemini` | 🚧 (Planned) |
-| **Anthropic** | `anthropic-like` | 🚧 (Planned) |
-| **Open Gateways** | `open-gateway` | 🚧 (Planned) |
+| Provider | Folder Name | Chat | JSON Mode | Tools | Streaming | Embeddings | Vision | Audio |
+|----------|-------------|------|-----------|-------|-----------|------------|--------|-------|
+| **OpenAI** | `openai-like` | ✅ | ✅ | ✅ | ✅ | ✅ | 🚧 | 🚧 |
+| **Groq** | `groq` | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| **Gemini** | `gemini` | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 |
+| **Anthropic** | `anthropic-like` | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 | 🚧 |
 
 ## Supported Languages
 
@@ -60,69 +59,6 @@ patterns/
 | **Go** | `go` | 🚧 (Planned) |
 | **Rust** | `rust` | 🚧 (Planned) |
 
-## Usage
-
-### 1. Prerequisites
-
-- **Node.js** (for JavaScript/TypeScript examples)
-- **Python 3.8+** (for Python examples)
-- API Keys for the providers you want to use.
-
-### 2. Setup Environment Variables
-
-Copy the example environment file and add your API keys:
-
-```bash
-cp .env.example .env
-```
-
-Edit `.env` and fill in your keys:
-
-```ini
-OPENAI_API_KEY=sk-...
-GROQ_API_KEY=gsk_...
-GEMINI_API_KEY=...
-ANTHROPIC_API_KEY=...
-```
-
-### 3. Install Dependencies
-
-**For Node.js / TypeScript:**
-
-```bash
-cd languages/javascript
-npm install
-# or
-npm install openai groq-sdk dotenv
-```
-
-**For Python:**
-
-```bash
-cd languages/python
-pip install -r requirements.txt
-# or
-pip install openai groq python-dotenv
-```
-
-### 4. Run an Example
-
-Navigate to the root of the repository and run the desired example file.
-
-**Node.js/TypeScript:**
-
-```bash
-# Chat Basics with Groq
-npx ts-node patterns/chat-basics/groq/javascript/basic-chat.ts
-```
-
-**Python:**
-
-```bash
-# Chat Basics with OpenAI
-python patterns/chat-basics/openai-like/python/basic_chat.py
-```
-
 ## Patterns
 
 We are currently implementing the following patterns (Phase 1 & 2):
@@ -132,8 +68,9 @@ We are currently implementing the following patterns (Phase 1 & 2):
 3.  **Function Calling**: Tool use basics.
 4.  **Streaming**: Handling streamed responses.
 5.  **Embeddings**: Generating text embeddings.
-6.  **Vision**: Image analysis.
-7.  **RAG Building Blocks**: Simple retrieval augmentation.
+6.  **RAG Building Blocks**: Simple retrieval augmentation.
+7.  **Vision**: Image analysis (Planned Phase 3).
+8.  **Audio**: Speech-to-Text / Text-to-Speech (Planned Phase 3).
 
 ## Contributing
 
